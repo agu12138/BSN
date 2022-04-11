@@ -13,10 +13,7 @@
     "require": {
         "php": ">=5.4"
     },
-    "scripts": {
-        "bsn-init":"venyuanbsn\\MyClass::init",
-        "bsn-update":"venyuanbsn\\MyClass::update"
-    },
+    "bin": ["bin\\bsn-init","bin\\bsn-update"],
     "autoload": {
         "psr-4": {
             "venyuanbsn\\": "src/"
