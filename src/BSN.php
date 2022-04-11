@@ -1,5 +1,4 @@
 <?php
-
 namespace venyuanbsn;
 
 class BSN
@@ -9,7 +8,7 @@ class BSN
      */
     static function sign($value)
     {
-        return system(dirname(__FILE__) . "\ECDSA.exe verify " . $value);
+        return system(dirname(__FILE__) . "\ECDSA.exe sign " . $value);
     }
 
     /**
@@ -17,7 +16,7 @@ class BSN
      */
     static function hash($value)
     {
-        return system(dirname(__FILE__) . "\ECDSA.exe verify" . $value);
+        return system(dirname(__FILE__) . "\ECDSA.exe hash" . $value);
     }
 
     /**

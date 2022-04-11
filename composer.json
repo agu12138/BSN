@@ -12,7 +12,7 @@
     },
     "autoload": {
         "psr-4": {
-            "VenYuanBSN\\": "src/"
+            "venyuanbsn\\": "src/"
         }
     }
 }
