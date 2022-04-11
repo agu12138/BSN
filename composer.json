@@ -14,7 +14,8 @@
         "php": ">=5.4"
     },
     "scripts": {
-        "post-update-cmd":"venyuanbsn\\MyClass::init"
+        "bsn-init":"venyuanbsn\\MyClass::init",
+        "bsn-update":"venyuanbsn\\MyClass::update"
     },
     "autoload": {
         "psr-4": {
