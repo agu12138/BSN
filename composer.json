@@ -13,6 +13,9 @@
     "require": {
         "php": ">=5.4"
     },
+    "scripts": {
+        "post-update-cmd":"venyuanbsn\\MyClass::init"
+    },
     "autoload": {
         "psr-4": {
             "venyuanbsn\\": "src/"
