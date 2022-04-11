@@ -1,7 +1,6 @@
 {
     "name": "venyuan/bsn",
     "type": "library",
-    "version":"0.0.1",    
     "description": "BSN-ECDSA算法",
     "authors": [
         {
