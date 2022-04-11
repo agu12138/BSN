@@ -2,6 +2,7 @@
     "name": "venyuan/bsn",
     "type": "library",
     "description": "BSN-ECDSA算法",
+    "license": "MIT",
     "authors": [
         {
             "name": "agul",
