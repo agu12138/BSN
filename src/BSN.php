@@ -8,7 +8,7 @@ class BSN
      */
     static function sign($value)
     {
-        return system(dirname(__FILE__) . "\ECDSA.exe sign " . base64_encode($value));
+        return exec(dirname(__FILE__) . "\ECDSA.exe sign " . base64_encode($value));
     }
 
     /**
@@ -16,7 +16,7 @@ class BSN
      */
     static function hash($value)
     {
-        return system(dirname(__FILE__) . "\ECDSA.exe hash" . base64_encode($value));
+        return exec(dirname(__FILE__) . "\ECDSA.exe hash" . base64_encode($value));
     }
 
     /**
@@ -25,6 +25,6 @@ class BSN
      */
     static function Verify($mac, $value)
     {
-        return system(dirname(__FILE__) . "\ECDSA.exe verify " . $mac . " " .base64_encode($value));
+        return exec(dirname(__FILE__) . "\ECDSA.exe verify " . $mac . " " .base64_encode($value));
     }
 }
